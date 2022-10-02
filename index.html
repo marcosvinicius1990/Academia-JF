@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Academia JF</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="caixa-superior">
+        <div class="cabecalho">
+            <h1 class="titulo-cabecalho"> Academia JF Funcional Fitness</h1>
+            <a href="#titulo-inferior" class="link-cabecalho"> Quem somos </a>
+            <a href="#titulo-meio" class="link-cabecalho"> Nossas Atividades</a>
+            <a class="link-cabecalho" onclick="JF()"> Contato</a>
+        </div>
+
+        <br> <br> <br>
+
+        <div class="container1">
+            <a href="https://www.instagram.com/jffuncionalfitnessrj/" target="_blank" style="font-size: 30px;"><img
+                    src="./logoinsta1.png" alt=""></a>
+      
+            <a href="https://www.facebook.com/JFFuncionalfitness" target="_blank" style="font: size 30px;"><img
+                    src="./logoface.png" alt=""></a>
+        </div>
+
+        <form id="formulario-contato" action="https://jeanluteranorj@hotmail.com" method="POST">
+            <h3 class="titulo-formulario">Entre em contato</h3>
+            <label>
+                Nome
+                <input type="text" name="Nome" placeholder="Digite seu Nome" required />
+            </label>
+
+            <label>
+                E-mail
+                <input type="email" name="email" placeholder="Digite seu E-mail" required />
+            </label>
+
+            <label>
+                WhatsApp
+                <input type="tel" name="telefone" placeholder="Digite seu telefone" required />
+            </label>
+
+            <label>
+                Fale Conosco
+                <textarea name="info" placeholder="Qual sua dúvida?"></textarea>
+            </label>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+    </div>
+
+    <h1 id="titulo-meio">Academia JF</h1>
+
+
+
+    <h3 id="titulo-meio"> Nossas Atividades </h3>
+
+    <div class="caixa-central">
+        <div class="card">
+            <h3 class="titulo-card"> Cuidamos da sua saúde</h3>
+            <ul>
+                <li>Jiu-Jitsu</li>
+                <li>Muay-Tai</li>
+                <li>Box</li>
+                <li>Musculação</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3 class="titulo-card"> Nossos Pacotes</h3>
+            <ul>
+                <li>Homens x</li>
+                <br><br>
+                <li>Mulheres x</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3 class="titulo-card"> Nossos Horários</h3>
+            <ul>
+                <li>Segunda a Sexta de H/H</li>
+                <li>Sábados de H/H</li>
+                <li>Domingo de H/H</li>
+                <li>Feriados de H/H</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="caixa-inferior">
+        <h1 id="titulo-inferior"> Sobre Nós</h1>
+        <p class="paragrafo-inferior">
+            Somos uma academia que amamos oferecer os benefícios da musculação dentre outros esportes que oferecemos
+            como jiu-jitsu, Muay-Tai etc...
+            Venha fazer uma aula experimental e quem sabe você fará parte de nossa equipe. Vem, mas vem com garra!
+            A INSISTÊNCIA QUEBRA A RESISTÊNCIA
+        </p>
+    </div>
+</body>
+<script>
+    let formulario = document.getElementById("formulario-contato")
+
+    function JF() {
+        formulario.className = "mostrar-formulario"
+    }
+</script>
+
+</html>

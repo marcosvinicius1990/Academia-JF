@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+}
+
+    .caixa-superior {
+        background-image: url("./jf.jpg");
+        background-size: cover;
+        height: 150vh;
+    }
+    
+    .cabecalho {
+        padding-top: 5px;
+        padding-left: 25px;
+    }
+    
+    img {
+        max-height: 75px;
+        max-width: 500px;
+    }
+    
+    .container1 {
+        justify-content: space-between;
+        display: flex;
+        margin: 10px;
+    }
+
+.titulo-cabecalho:hover {
+    animation: pulsate 2s  ease-in-out; 
+}
+
+@keyframes pulsate {
+    0% {
+        box-shadow:
+            0 0 10px #5ddcff,
+            0 0 10px #4e00c2;
+    }
+}
+
+.link-cabecalho {
+    font-size: 30px;
+    color: black;
+    margin-left: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 25px;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.link-cabecalho:hover {
+    text-shadow: 1px 1px 1px green;
+}
+
+.link-cabecalho:active {
+    opacity: 0.5;
+    text-shadow: 1px 1px 1px blue;
+}
+
+h2 {
+    font-size: 58px;
+    color: black;
+    position: relative;
+    margin-left: 35px;
+    top: 280px;
+}
+
+form {
+    opacity: 0;
+    transition: opacity 1s linear;
+    background-color: #90EE90;
+    border-radius: 10px;
+    border: 2px solid;
+    float: right;
+    padding: 20px;
+    margin-right: 50px;
+    justify-content: center;
+}
+
+form:hover {
+    animation: pulsate 2s  ease-in-out; 
+}
+
+@keyframes pulsate {
+    0% {
+        box-shadow:
+            0 0 10px #5ddcff,
+            0 0 10px #4e00c2;
+    }
+}
+
+.mostrar-formulario {
+    opacity: 1;
+}
+
+input {
+    display: block;
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 40px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    display: block;
+    height: 80px;
+    width: 250px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.titulo-formulario {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+label {
+    font-size: 14px;
+    color: black;
+}
+
+button {
+    width: 250px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: darkgreen;
+    color: white;
+}
+
+.caixa-central {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;    
+}
+
+#titulo-meio {
+    font-size: 40px;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-style: oblique;
+    background-color: green;
+}
+
+.card {
+    width: 200px;
+    border-radius: 10px;
+    background-color: white;
+    border: double 5px black;
+    text-decoration: none;
+}
+
+.card:hover {
+    animation: pulsate 1s ease-in-out;
+}
+
+@keyframes pulsate {
+    0%{
+        box-shadow:
+         0 0 25px #5ddcff,
+         0 0 50px #4e00c2
+    }
+}
+
+.titulo-card{
+    background: #219653;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    text-shadow: black 2px 2px;
+    font-style: italic;
+}
+
+ul {
+    padding: 20px;
+    background-color: aqua;
+}
+
+li {
+    margin-bottom: 5px;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+
+.caixa-inferior {
+    background-color: #00095d;
+}
+
+#titulo-inferior {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+    background-color: green;
+}
+
+.paragrafo-inferior {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 20px 50px 20px 50px;
+}
+
+h1 {
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width:1320px) {
+    .caixa-superior {
+    width: 100%;
+    height: 50vh;
+    padding: 0;
+    margin: 0;
+    }
+
+    .cabecalho {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .titulo-cabecalho {
+        display: none;
+    }
+}
