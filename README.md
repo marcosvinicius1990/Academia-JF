@@ -8,10 +8,9 @@
  
  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="logo-css">
  
- <p>Acessando a aplicação, o usuário consegue contato em poucos cliques mandando uma mensagem para o proprietário agendando uma visita</p>
+ <p>Acessando a aplicação, o usuário consegue contato em poucos cliques mandando uma mensagem para o proprietário agendando uma visita.</p>
  
  <br><br>
  
  
- <img src="![Captura de Tela (18)](https://user-images.githubusercontent.com/99223456/202924141-bc5d4317-cb47-4b23-99b0-bb98004897ec.png)
-" />
+ <img src="https://github.com/marcosvinicius1990/Academia-JF/blob/master/Captura%20de%20Tela%20(18).png?raw=true" />
