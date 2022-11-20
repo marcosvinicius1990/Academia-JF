@@ -13,4 +13,5 @@
  <br><br>
  
  
- <img src="https://github.com/marcosvinicius1990/Academia-JF/blob/master/print%20jf.png?raw=true" />
+ <img src="![Captura de Tela (18)](https://user-images.githubusercontent.com/99223456/202924141-bc5d4317-cb47-4b23-99b0-bb98004897ec.png)
+" />
